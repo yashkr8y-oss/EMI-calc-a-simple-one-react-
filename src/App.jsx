@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
   const[amount, setAmount] = useState("");
 const[rate, setRate] = useState("");
-const[time, setTime] = useState("");
+const[time, setTime] = useState("");īīīī
 function EMI(){
  const a = Number(amount);
  const b = Number(rate)/ 12/ 100;
